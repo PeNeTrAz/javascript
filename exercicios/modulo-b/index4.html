@@ -6,19 +6,16 @@
     <title>Aprendendo JS</title>
     <style>
         body{
-            background-color: rgb(87, 87, 129);
-            color: white;
             font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
         }
     </style>
 </head>
 <body>
-    <h1>Olá Mundo!</h1>
+    
     <script>
-        var n1 = Number(window.prompt('Digite um numero')) // String
-        var n2 = Number(window.prompt('Digite outro numero')) // String
-        var soma = n1 + n2
-        window.alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras.`)
     </script>
 </body>
 </html>
